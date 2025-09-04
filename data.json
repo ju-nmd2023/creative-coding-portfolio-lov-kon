@@ -1,7 +1,7 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "file": "experiments/project-1.0.js",
+    "name": "Molnár recreation, 1.0",
+    "description": "This recreated artwork is originally from Vera Molnár. I have used code example from Garrit, but made some small changes, for example changed the size and layers of the rectangles. "
   }
 ]
