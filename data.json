@@ -2,6 +2,16 @@
   {
     "file": "experiments/project-1.0.js",
     "name": "Molnár recreation, 1.0",
-    "description": "This recreated artwork is originally from Vera Molnár. I have used code example from Garrit, but made some small changes, for example changed the size and layers of the rectangles. "
+    "description": "This recreated artwork is originally from Vera Molnár. I used code example from Garrit, but made some small changes, for example changed the size and layers of the rectangles. "
+  },
+  {
+    "file": "experiments/project-1.1.js",
+    "name": "Molnár recreation, 1.1",
+    "description": "This recreated artwork is originally from Vera Molnár. I used code example from Garrit, but made some small changes, for example added loop and some rotation in the layers. "
+  },
+  {
+    "file": "experiments/project-1.2.js",
+    "name": "Molnár recreation, 1.2",
+    "description": "This recreated artwork is originally from Vera Molnár. I used code example from Garrit, but made some small changes, for example added strokeWeight and some transparance. "
   }
 ]
