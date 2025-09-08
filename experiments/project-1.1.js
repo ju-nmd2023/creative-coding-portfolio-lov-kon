@@ -18,14 +18,14 @@ function drawLayers(x, y, size, layers) {
     if (Math.random() > 0.8) {
       continue;
     }
+
+    //following 12 lines is written with help of chatGPT
     const s = (size / layers) * i;
     const half = s / 2;
     push();
-
     translate(x, y);
     rotate(radians(i * 1000));
     beginShape();
-
     vertex(getRandomValue(-half, variance), getRandomValue(-half, variance));
     vertex(getRandomValue(half, variance), getRandomValue(-half, variance));
     vertex(getRandomValue(half, variance), getRandomValue(half, variance));

@@ -26,15 +26,11 @@ function drawLayers(x, y, size, layers) {
     translate(x, y);
     rotate(radians(i * 100));
     beginShape();
-
-    vertex(getRandomValue(-half, variance), getRandomValue(-half, variance));
-    vertex(getRandomValue(half, variance), getRandomValue(-half, variance));
-    vertex(getRandomValue(half, variance), getRandomValue(half, variance));
     vertex(getRandomValue(-half, variance), getRandomValue(half, variance));
     endShape(CLOSE);
     pop();
 
-    ellipse(x - half, y - half, s, s);
+    ellipse(x, y, s, s);
   }
 }
 

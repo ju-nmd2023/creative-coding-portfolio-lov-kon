@@ -7,11 +7,21 @@
   {
     "file": "experiments/project-1.1.js",
     "name": "Molnár recreation, 1.1",
-    "description": "This recreated artwork is originally from Vera Molnár. I used code example from Garrit, but made some small changes, for example added loop and some rotation in the layers. "
+    "description": "In this variation I added loop and some rotation in the layers. "
   },
   {
     "file": "experiments/project-1.2.js",
     "name": "Molnár recreation, 1.2",
-    "description": "This recreated artwork is originally from Vera Molnár. I used code example from Garrit, but made some small changes, for example added strokeWeight and some transparance. "
-  }
+    "description": "In this variation I added some strokeWeight, transparance, changed shapes etc  "
+  },
+  {
+    "file": "experiments/project-2.0.js",
+    "name": "Noise recreation 2.0",
+    "description": "This is an artwork made from inspiration from Perlin Noise. I created this with help from Garrits example code and changed for example colors and the counter"
+  },
+  {
+  "file": "experiments/project-2.1.js",
+  "name": "Noise recreation 2.0",
+  "description": "In this variation, I changed the colors, shape, counter, size, and divider, and added noise-based offsets so the grid appears to drift and flow."
+  } 
 ]
