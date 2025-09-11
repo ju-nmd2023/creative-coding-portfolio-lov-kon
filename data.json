@@ -16,12 +16,22 @@
   },
   {
     "file": "experiments/project-2.0.js",
-    "name": "Noise recreation 2.0",
+    "name": "Noise recreation, 2.0",
     "description": "This is an artwork made from inspiration from Perlin Noise. I created this with help from Garrits example code and changed for example colors and the counter"
   },
   {
-  "file": "experiments/project-2.1.js",
-  "name": "Noise recreation 2.0",
-  "description": "In this variation, I changed the colors, shape, counter, size, and divider, and added noise-based offsets so the grid appears to drift and flow."
-  } 
+    "file": "experiments/project-2.1.js",
+    "name": "Noise recreation, 2.1",
+    "description": "In this variation, I changed the colors, shape, counter, size, and divider, and added noise-based offsets so the grid appears to drift and flow."
+  },
+  {
+    "file": "experiments/project-3.0.js",
+    "name": "Hobbs recreation, 3.0 ",
+    "description": "This is a recreation of Tyler Hobbs art with flow fields."
+  },
+  {
+    "file": "experiments/project-3.1.js",
+    "name": "Hobbs recreation, 3.1 ",
+    "description": "In this variation I have added a grid and slow animation, creating longer, flowing lines"
+  }
 ]
