@@ -1,3 +1,4 @@
+//The following lines of code is inspired from Garrit's example code and then i have made a few changes
 function setup() {
   createCanvas(innerWidth, innerHeight);
   frameRate(10);

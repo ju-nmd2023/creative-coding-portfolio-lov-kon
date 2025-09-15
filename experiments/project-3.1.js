@@ -1,3 +1,4 @@
+//The following lines of code is inspired by Tyler Hobbs code for his art of flow fields
 function setup() {
   createCanvas(innerWidth, innerHeight);
   frameRate(5);
