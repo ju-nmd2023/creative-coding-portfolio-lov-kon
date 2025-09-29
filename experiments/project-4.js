@@ -32,8 +32,8 @@ function mousePressed() {
     console.log("AudioContext started!");
 
     // Create filters **after AudioContext is started**
-    const lowpass = new Tone.Filter(500, "lowpass").toDestination();
-    const highpass = new Tone.Filter(500, "highpass").connect(lowpass);
+    const lowpass = new Tone.Filter(100, "lowpass").toDestination();
+    const highpass = new Tone.Filter(250, "highpass").connect(lowpass);
 
     // Create oscillator and connect it to filters
     const osc = new Tone.Oscillator(Math.random() * 880 + 110, "sine").connect(
