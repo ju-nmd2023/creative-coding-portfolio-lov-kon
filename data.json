@@ -37,6 +37,6 @@
   {
     "file": "experiments/project-4.js",
     "name": "Kaleidoscope, 4.0 ",
-    "description": "In this variation I have added a grid and slow animation, creating longer, flowing lines"
+    "description": "This is a kaleidoscope art piece and to this i have added an oscillator everytime you click with the mouse. The kaleidoscope code is inspired by code available on Canvas."
   }
 ]

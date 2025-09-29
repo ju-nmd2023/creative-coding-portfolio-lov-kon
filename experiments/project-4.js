@@ -25,6 +25,7 @@ function draw() {
   position.add(velocity);
 }
 
+
 function mousePressed() {
   console.log("Mouse pressed!");
 
