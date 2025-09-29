@@ -41,6 +41,6 @@ function mousePressed() {
     );
 
     osc.start();
-    osc.stop("+0.5"); // stop after 0.2 seconds
+    osc.stop("+0.8"); // stop after 0.2 seconds
   });
 }
