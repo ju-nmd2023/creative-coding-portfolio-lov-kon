@@ -17,7 +17,7 @@
   {
     "file": "experiments/project-2.0.js",
     "name": "Noise recreation, 2.0",
-    "description": "This is an artwork made from inspiration from Perlin Noise. I created this with help from Garrits example code and changed for example colors and the counter"
+    "description": "This is an artwork made with inspiration from Perlin Noise. I created this with help from Garrits example code and changed for example colors and the counter"
   },
   {
     "file": "experiments/project-2.1.js",
@@ -27,7 +27,7 @@
   {
     "file": "experiments/project-3.0.js",
     "name": "Hobbs recreation, 3.0 ",
-    "description": "This is a recreation of flow fields by Tyler Hobbs, and the art includes noise to get the angles. "
+    "description": "This is a recreation of flow fields by Tyler Hobbs, this art piece also includes noise to get nice and smooth angles. "
   },
   {
     "file": "experiments/project-3.1.js",
@@ -37,6 +37,6 @@
   {
     "file": "experiments/project-4.js",
     "name": "Kaleidoscope, 4.0 ",
-    "description": "This is an art inspired by the kaleidoscope code available on canvas. I have also added an oscillator everytime you click with the mouse."
+    "description": "This is an art inspired by the kaleidoscope code available on canvas but changed a few elements, such as just having one drawing line with ellipses. In this art piece, I have also added an oscillator that triggers everytime you click with the mouse."
   }
 ]
