@@ -1,3 +1,4 @@
+//The following lines of code is inspired of Garrit's code example, and then i have changed some few things.
 function setup() {
   createCanvas(1000, 1000);
   frameRate(5);
@@ -19,7 +20,7 @@ function drawLayers(x, y, size, layers) {
       continue;
     }
 
-    //following 12 lines is written with help of chatGPT
+    //following 12 lines were adapted with help from chatGPT
     const s = (size / layers) * i;
     const half = s / 2;
     push();

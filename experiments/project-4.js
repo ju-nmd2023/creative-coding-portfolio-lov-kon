@@ -1,3 +1,4 @@
+//Following 27 lines of codes is inspired by code example of kaleidoscope
 let position;
 let velocity;
 let acceleration;
@@ -11,37 +12,38 @@ function setup() {
 
 function draw() {
   noStroke();
+
   fill(200, random(250), 200, 80);
   ellipse(position.x, position.y, 10);
 
   if (position.x > width || position.x < 0) velocity.x *= -1;
   if (position.y > height || position.y < 0) velocity.y *= -1;
 
-  const mouseVec = createVector(mouseX, mouseY);
-  acceleration = p5.Vector.sub(mouseVec, position);
-  acceleration.normalize().mult(0.9);
+  const mouse = createVector(mouseX, mouseY);
+  acceleration = p5.Vector.sub(mouse, position);
+  acceleration.normalize();
+  acceleration.mult(0.9);
 
-  velocity.add(acceleration).limit(10);
+  velocity.add(acceleration);
+  velocity.limit(10);
   position.add(velocity);
 }
 
-
+// Following lines of code were adapted with help from a friend of mine
 function mousePressed() {
   console.log("Mouse pressed!");
 
   Tone.start().then(() => {
     console.log("AudioContext started!");
 
-    // Create filters **after AudioContext is started**
     const lowpass = new Tone.Filter(100, "lowpass").toDestination();
     const highpass = new Tone.Filter(250, "highpass").connect(lowpass);
 
-    // Create oscillator and connect it to filters
     const osc = new Tone.Oscillator(Math.random() * 880 + 110, "sine").connect(
       highpass
     );
 
     osc.start();
-    osc.stop("+0.8"); // stop after 0.2 seconds
+    osc.stop("+0.8");
   });
 }

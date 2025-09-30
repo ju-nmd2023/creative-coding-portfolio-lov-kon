@@ -18,7 +18,7 @@ function setup() {
   
     for (let y = 0; y < numRows; y++) {
         for (let x = 0; x < numCols; x++) {
-          // noise controls both size and position
+      
           const value = noise(x / divider, y / divider, counter) * size;
     
           let offsetX = noise(x / divider, y / divider, counter) * 10;
@@ -31,8 +31,6 @@ function setup() {
           );
         }
       }
-    
-    
   
     counter += 0.5;
   }

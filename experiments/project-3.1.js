@@ -1,4 +1,4 @@
-//The following lines of code is inspired by Tyler Hobbs code for his art of flow fields
+//The following lines of code is inspired by flow field code by Tyler Hobbs, https://www.tylerxhobbs.com/words/flow-fields
 function setup() {
   createCanvas(innerWidth, innerHeight);
   frameRate(5);

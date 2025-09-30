@@ -27,7 +27,7 @@
   {
     "file": "experiments/project-3.0.js",
     "name": "Hobbs recreation, 3.0 ",
-    "description": "This is a recreation of Tyler Hobbs art with flow fields. "
+    "description": "This is a recreation of flow fields by Tyler Hobbs, and the art includes noise to get the angles. "
   },
   {
     "file": "experiments/project-3.1.js",
@@ -37,6 +37,6 @@
   {
     "file": "experiments/project-4.js",
     "name": "Kaleidoscope, 4.0 ",
-    "description": "This is a kaleidoscope art piece and to this i have added an oscillator everytime you click with the mouse. The kaleidoscope code is inspired by code available on Canvas."
+    "description": "This is an art inspired by the kaleidoscope code available on canvas. I have also added an oscillator everytime you click with the mouse."
   }
 ]

@@ -1,4 +1,4 @@
-//The following lines of code is inspired by Tyler Hobbs code for his art of flow fields
+//The following lines of code is inspired by flow field art by Tyler Hobbs, https://www.tylerxhobbs.com/words/flow-fields
 function setup() {
   createCanvas(innerWidth, innerHeight);
   background(240);
@@ -8,7 +8,6 @@ function setup() {
   let stepSize = 20;
   let lineLength = 150;
 
-  // Softer palette with transparency
   let palette = [
     color(215, 70, 110, 50),
     color(90, 20, 200, 50),

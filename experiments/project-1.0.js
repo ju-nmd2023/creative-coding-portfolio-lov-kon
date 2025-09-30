@@ -39,7 +39,6 @@ function drawLayers(x, y, size, layers) {
       getRandomValue(y + half, variance)
     );
     endShape(CLOSE);
-    // rect(x - half, y - half, s, s);
   }
 }
 
